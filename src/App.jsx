@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="overflow-hidden h-auto">
       <Header />
-      <main>
+      <main className="pt-20">
         <Home />
       </main>
       <Footer />
