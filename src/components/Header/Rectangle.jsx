@@ -21,7 +21,7 @@ const Rectangle = ({classname}) => {
           </div>
         </div>
         <div className="sm:w-[300px]">
-          <img src={cityImage} alt="" width={600} height={200} />
+          <img src={cityImage} alt="" width={300} height={200} />
         </div>
       </div>
     </div>
