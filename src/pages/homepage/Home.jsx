@@ -9,7 +9,7 @@ import UniqueHome from "./UniqueHome"
 
 const Home = () => {
   return (
-    <div className="w-[100vh]">
+    <div>
         <Banner/>
         <RealEstateSection/>
         <LogoList/>
