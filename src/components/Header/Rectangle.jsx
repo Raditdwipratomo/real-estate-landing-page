@@ -20,8 +20,8 @@ const Rectangle = ({classname}) => {
             </button>
           </div>
         </div>
-        <div>
-          <img src={cityImage} alt="" width={600} height={200} />
+        <div className="sm:w-[300px]">
+          <img src={cityImage} alt="" width={300} height={200} />
         </div>
       </div>
     </div>

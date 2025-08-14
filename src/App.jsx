@@ -5,7 +5,7 @@ import Home from "./pages/homepage/Home";
 
 function App() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden h-auto">
       <Header />
       <main className="pt-20">
         <Home />
