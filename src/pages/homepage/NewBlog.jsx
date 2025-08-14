@@ -75,7 +75,7 @@ const NewBlog = () => {
           </div>
         </div>
       </div>
-      <Rectangle classname="absolute -translate-y-32 translate-x-20"/>
+      <Rectangle classname="lg:absolute lg:-translate-y-32 lg:translate-x-20 relative"/>
     </div>
   );
 };

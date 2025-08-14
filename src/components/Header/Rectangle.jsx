@@ -4,7 +4,7 @@ import cityImage from "../../assets/city-background.png";
 const Rectangle = ({classname}) => {
   return (
     <div className={classname}>
-      <div className="grid md:grid-cols-2 grid-cols-1 w-[1100px] bg-orange-100 px-6 py-8">
+      <div className="grid md:grid-cols-2 grid-cols-1 w-full bg-orange-100 px-6 py-8 max-w-screen-2xl">
         <div>
           <h2 className="font-bold text-3xl lg:text-4xl max-md:w-[400px] ">
             Find your <span className="text-[#ff5b28]">dream home</span> today!

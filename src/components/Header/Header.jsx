@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { MdMenu } from "react-icons/md";
-import arrowIcon from "../../assets/arrow.png";
 import { IoMdArrowRoundUp } from "react-icons/io";
 
 const Header = () => {
@@ -31,7 +30,7 @@ const Header = () => {
 
   return (
     <nav className="bg-white left-0 fixed top-0 right-0 z-[9999] px-14 shadow-sm">
-      <div className="max-w-screen-2xl mx-auto py-4 px-5 flex justify-between items-center">
+      <div className="mx-auto py-4 px-5 flex justify-between items-center max-w-screen-2xl">
         <a href="/">
           <img src="/logo.png" alt="logo" className="w-28" />
         </a>
