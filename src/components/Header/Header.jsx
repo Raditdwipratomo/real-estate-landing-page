@@ -30,11 +30,9 @@ const Header = () => {
 
   return (
     <nav className="bg-white left-0 fixed top-0 right-0 z-[9999] px-14 shadow-sm">
-<<<<<<< HEAD
+
       <div className="mx-auto py-4 px-5 flex justify-between items-center max-w-screen-2xl">
-=======
-      <div className="md:max-w-screen-2xl max-w-screen-lg mx-auto py-4 px-5 flex justify-between items-center">
->>>>>>> fc7c691d96e2d77ccee5323897d49074fea4cc23
+
         <a href="/">
           <img src="/logo.png" alt="logo" className="w-28" />
         </a>
